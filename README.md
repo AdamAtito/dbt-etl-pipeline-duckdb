@@ -26,3 +26,15 @@ It follows a classic **ETL pipeline** with raw data ingestion, staging, dimensio
 ---
 
 ## 📂 Project Structure
+dbt_project.yml
+models/
+│── staging/
+│ ├── stg_users.sql
+│ ├── stg_products.sql
+│ └── stg_categories.sql
+│
+│── schema/
+│ ├── userdim.sql
+│ ├── productsdim.sql
+│ ├── categorydim.sql
+│ └── fact_userproducts.sql
